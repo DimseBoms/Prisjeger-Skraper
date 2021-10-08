@@ -25,7 +25,12 @@ antall_butikker = len(driver.find_element_by_xpath(TR_XPATH).find_elements_by_ta
 print("Antall produkter funnet: " + str(antall_produkter))
 print("Antall butikker funnet: " + str(antall_butikker))
 
-# TODO: Finn ut hvilke butikker som er med i tabellen og hvilke indexer de hører til
+# TODO:
+# Finn ut hvilke butikker som er med i tabellen og hvilke indexer de
+# hører til. Butikkdataen skal deretter settes inn som et
+# eget nøkkel -> verdier forhold i produkter{} i samme stil som
+# produktene selv.
+# Eksempel: Butikker:{'Kiwi', 'Meny', 'osv', 'osv'}
 
 # Henter produktnavn og setter dem inn som nøkler i produkter{}
 produkter = {}
@@ -42,6 +47,10 @@ for rad in driver.find_elements_by_xpath(TR_XPATH):
     print(str(produkt) + ": " + str(pris_liste_tmp))
     produkter.update({produkt: pris_liste_tmp})
 driver.quit()
+
+# TODO:
+# Feilhåndtering for I/O. Dersom mappen ikke eksisterer skal
+# skal den lages mens programmet kjøres.
 
 # Skriver data til fil
 fil = f"./data/produkter-{date.today()}.json"
