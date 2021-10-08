@@ -56,7 +56,7 @@ driver.quit()
 fil = f"./data/produkter-{date.today()}.json"
 with open(fil, "w") as outfile:
     json.dump(produkter, outfile)
-print(f"Data skrevet til fil: {fil}")
+    print(f"Data skrevet til fil: {fil}")
 
 # TODO: Logging av programmets atferd.
 # Spesielt feillogger i tilfelle det vil
