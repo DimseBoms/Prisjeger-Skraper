@@ -1,4 +1,4 @@
-Et Python skript som skal samle inn prisdata fra enhver.no. Skritpet kjører på en privat server med jevne mellomrom.
+Et Python skript som skal samle inn prisdata fra enhver.no. Skriptet kjører på en privat server med jevne mellomrom.
 
 Dersom en skal kjøre skriptet på egen maskin så er du nødt for å installere Python sammen med modulene i 'requirements.txt', i tillegg til å installere en nettleser sammen med nettleserens webdriver. En webdriver er grensesnittet mellom programmeringspråket og nettleseren. Det er dette grensesnittet som tillater oss å kommunisere med nettleseren i form av kode.
 
