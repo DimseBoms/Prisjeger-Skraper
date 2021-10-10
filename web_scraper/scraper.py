@@ -1,4 +1,4 @@
-# Laget av Dmitriy Safiullin. Sist oppdatert: 10.08.2021
+# Laget av Dmitriy Safiullin. Sist oppdatert: 10.10.2021
 # Programmet henter prisdata fra enhver.no. Prisdata blir lagret i ./data mappen.
 
 # Importsetninger
