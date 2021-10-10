@@ -49,7 +49,7 @@ for rad in driver.find_elements_by_xpath(TR_XPATH):
         if col_index != 0 :
             pris_liste_tmp.append(celle.text)
         col_index += 1
-    # print(str(produkt) + ": " + str(pris_liste_tmp))
+    print(str(produkt) + ": " + str(pris_liste_tmp))
     produkter.update({produkt: pris_liste_tmp})
 driver.quit()
 
