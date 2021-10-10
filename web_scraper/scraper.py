@@ -1,4 +1,4 @@
-# Laget av Dmitriy Safiullin. Sist oppdatert: 10.10.2021
+# Laget av Dmitriy Safiullin. Sist oppdatert: 10.08.2021
 # Programmet henter prisdata fra enhver.no. Prisdata blir lagret i ./data mappen.
 
 # Importsetninger
@@ -38,9 +38,9 @@ antall_butikker = len(driver.find_element_by_xpath(TR_XPATH).find_elements_by_ta
 print("Antall produkter funnet: " + str(antall_produkter))
 print("Antall butikker funnet: " + str(antall_butikker))
 
-produkter = {}
-
 # Henter prisinformasjon og putter den inn som verdier i produkter{}
+produkter = {}
+print("Produkter:")
 for rad in driver.find_elements_by_xpath(TR_XPATH):
     produkt = rad.find_element_by_tag_name("td").text.replace("\n", ", ")
     pris_liste_tmp = []
