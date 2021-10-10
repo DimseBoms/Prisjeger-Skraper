@@ -62,4 +62,4 @@ fil = f"./data/produkter-{date.today()}.json"
 with open(fil, "w") as outfile:
     json.dump(produkter, outfile)
     print(f"Suksess. Data skrevet til {fil}")
-print(f"Total kjøretid: {datetime.now() - start_tid}")
+print(f"Kjøretid: {datetime.now() - start_tid}")
