@@ -1,6 +1,3 @@
-# Laget av Dmitriy Safiullin. Sist oppdatert: 17.11.2021
-# Programmet henter prisdata fra enhver.no. Prisdata blir lagret i ./data mappen.
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from datetime import datetime
