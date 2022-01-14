@@ -28,3 +28,4 @@ rclone copyto ~/backup/backup.tar.gz drive:/backups/backup_$dato.tar.gz
 
 # delete the temporary directory
 rm -rf ~/backup
+.
