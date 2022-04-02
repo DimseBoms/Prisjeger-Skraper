@@ -1,4 +1,4 @@
 # Prisjeger
-Denne må oppdateres slik at den beskriver prosjektet i sin helhet.
+En simpel webskraper som tilhører Prisjeger. Skal komplementere applikasjonens datainnsamlingsmetoder.
 
-Haha, ødla README
+https://github.com/DimseBoms/prisjeger
